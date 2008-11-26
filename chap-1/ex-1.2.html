@@ -1,0 +1,27 @@
+<html>
+<body>
+
+<h1>Chapter 1</h1>
+
+<h2>Exercise 1.2</h2>
+
+<script type="text/javascript">
+function add(a,b) {return a+b}
+function divide (a,b) {return a/b}
+function subtract(a,b) { return a-b}
+function multiply(a,b) {return a*b}
+var ex = "divide(add(5, add(4, subtract(2, subtract(3, add(6, divide(4, 5)))))), multiply(multiply(3, subtract(6, 2)), subtract(2, 7)) )";
+document.write("<pre>" + ex + "</pre>" );
+document.write("<p>" + eval(ex) + "</p>" );
+</script>
+
+<h2>Exercise 1.4</h2>
+
+<p>The procedure a-plus-abs-b tests whether or not b is greater than 0
+and returns the procedure + if it is and - if it is not.  That
+procedure is applied to the arguments passed into the procedure.
+</p>
+
+
+</body>
+</html>
